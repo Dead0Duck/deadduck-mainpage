@@ -1,5 +1,5 @@
 import Card from './Card.js';
-import { Title, Flex, Space } from '@mantine/core';
+import { Title, Space } from '@mantine/core';
 
 import ProjectsAccordion from './ProjectsAccordion.js';
 

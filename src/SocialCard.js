@@ -22,7 +22,7 @@ const SocialCard = () => (
 
 			<SocialButton href="https://youtube.com/@Dead0Duck" Icon={FaYoutube} text="YouTube" />
 			<SocialButton href="https://steamcommunity.com/id/Dead0Duck" Icon={FaSteamSymbol} text="Steam" />
-			<SocialButton href="https://github.com/Dead0Duck" Icon={FaGithub} text="Github" />
+			<SocialButton href="https://github.com/Dead0Duck" Icon={FaGithub} text="GitHub" />
 		</Flex>
 		<Space h={2} />
 	</Card>
