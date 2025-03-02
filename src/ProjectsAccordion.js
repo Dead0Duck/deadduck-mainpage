@@ -23,10 +23,10 @@ const projectsList = [
 	ProjectUtYt,
 ]
 
-function AccordionLabel({ label, id, description }) {
+function AccordionLabel({ label, id, description, img }) {
   return (
     <Group wrap="nowrap">
-      <Avatar src={`/imgs/${id}.png`} radius="xl" size="lg" />
+      <Avatar src={img} radius="xl" size="lg" />
       <div>
         <Text>{label}</Text>
         <Text size="sm" c="dimmed" fw={400}>

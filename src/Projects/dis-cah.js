@@ -1,5 +1,8 @@
+import Img from './imgs/dis-cah.png';
+
 const ProjectDisCah = {
 	id: 'dis-cah',
+	img: Img,
 	label: 'Карты против Всех',
 	description: 'Активность для Discord',
 	content: <>

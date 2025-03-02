@@ -1,6 +1,8 @@
 import Card from './Card.js';
 import { Grid, Title, Image } from '@mantine/core';
 
+import DeadDuckImg from './imgs/DeadDuck.png'
+
 const TitleCard = () => (
 	<Card settings={{
 		pt: 'none',
@@ -11,7 +13,7 @@ const TitleCard = () => (
 				<Image
 					radius="xl"
 					h={128}
-					src="/logo192.png"
+					src={DeadDuckImg}
 				/>
 			</Grid.Col>
 			<Grid.Col span="auto">

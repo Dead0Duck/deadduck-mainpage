@@ -1,5 +1,8 @@
+import Img from './imgs/wobat.png';
+
 const ProjectWOBAT = {
 	id: 'wobat',
+	img: Img,
 	label: 'Мир Крови и Слёз',
 	description: 'Визуальная новелла на движке Renpy',
 	content: <>

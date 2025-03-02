@@ -1,8 +1,10 @@
+import Img from './imgs/ut-undernet.png';
 import SocialButton from '../SocialButton';
 import { FaVk } from 'react-icons/fa';
 
 const ProjectUndernet = {
 	id: 'ut-undernet',
+	img: Img,
 	label: 'UNDERNET',
 	description: 'Мультиплеерная фанатская игра по Undertale для Windows',
 	content: <>

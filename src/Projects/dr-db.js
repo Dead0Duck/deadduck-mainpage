@@ -1,5 +1,8 @@
+import Img from './imgs/dr-db.png';
+
 const ProjectDanganbox = {
 	id: 'dr-db',
+	img: Img,
 	label: 'DanganBox',
 	description: 'Фанатская игра по Danganronpa в формате Jackbox',
 	content: <>

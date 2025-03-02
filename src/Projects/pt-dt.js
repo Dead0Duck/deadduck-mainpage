@@ -1,5 +1,8 @@
+import Img from './imgs/pt-dt.png';
+
 const ProjectDespairTown = {
 	id: 'pt-dt',
+	img: Img,
 	label: 'Despair Town',
 	description: 'Фанатский проект по Danganronpa в... Pony Town',
 	content: <>

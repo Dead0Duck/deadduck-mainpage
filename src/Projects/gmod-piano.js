@@ -1,9 +1,11 @@
+import Img from './imgs/gmod-piano.png';
 import { Flex } from '@mantine/core';
 import SocialButton from '../SocialButton';
 import { FaSteamSymbol, FaGithub } from 'react-icons/fa';
 
 const ProjectGmodPiano = {
 	id: 'gmod-piano',
+	img: Img,
 	label: 'Autoplayble Piano',
 	description: 'Аддон для Garry\'s mod',
 	content: <>

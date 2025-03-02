@@ -1,8 +1,10 @@
+import Img from './imgs/ut-yt.png';
 import SocialButton from '../SocialButton';
 import { FaGamepad } from 'react-icons/fa';
 
 const ProjectUtYt = {
 	id: 'ut-yt',
+	img: Img,
 	label: 'YoutubeTale',
 	description: 'Фанатская игра по Undertale для Windows',
 	content: <>

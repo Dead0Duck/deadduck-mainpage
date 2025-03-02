@@ -1,8 +1,10 @@
+import Img from './imgs/gmod-dbr.png';
 import SocialButton from '../SocialButton';
 import { FaYoutube } from 'react-icons/fa';
 
 const ProjectGmodDBR = {
 	id: 'gmod-dbr',
+	img: Img,
 	label: 'Danganronpa: Despair Beyond Repair',
 	description: 'Фанатский проект по Danganronpa в Garry\'s mod',
 	content: <>
