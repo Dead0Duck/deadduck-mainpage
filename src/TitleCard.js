@@ -2,8 +2,11 @@ import Card from './Card.js';
 import { Grid, Title, Image } from '@mantine/core';
 
 const TitleCard = () => (
-	<Card>
-		<Grid size="xs">
+	<Card settings={{
+		pt: 'none',
+		pb: 'none',
+	}}>
+		<Grid className='mantine-Grid-no-margin'>
 			<Grid.Col span="content">
 				<Image
 					radius="xl"

@@ -1,5 +1,5 @@
 import Card from './Card.js';
-import { Title, Flex, Space } from '@mantine/core';
+import { Title, Flex } from '@mantine/core';
 import { FaVk, FaTelegramPlane, FaDiscord, FaYoutube, FaSteamSymbol, FaGithub } from 'react-icons/fa';
 
 import SocialButton from './SocialButton.js';
@@ -24,7 +24,6 @@ const SocialCard = () => (
 			<SocialButton href="https://steamcommunity.com/id/Dead0Duck" Icon={FaSteamSymbol} text="Steam" />
 			<SocialButton href="https://github.com/Dead0Duck" Icon={FaGithub} text="GitHub" />
 		</Flex>
-		<Space h={2} />
 	</Card>
 );
 

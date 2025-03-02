@@ -1,5 +1,5 @@
 import Card from './Card.js';
-import { Title, Space } from '@mantine/core';
+import { Title } from '@mantine/core';
 
 import ProjectsAccordion from './ProjectsAccordion.js';
 
@@ -8,7 +8,6 @@ const ProjectsCard = () => (
 		<Title order={3} mb={10}>Мои разработки</Title>
 
 		<ProjectsAccordion />
-		<Space h={10} />
 	</Card>
 );
 
