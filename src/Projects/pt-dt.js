@@ -1,7 +1,7 @@
 const ProjectDespairTown = {
 	id: 'pt-dt',
 	label: 'Despair Town',
-	description: 'Фанатский проект по игре Danganronpa в... Pony Town',
+	description: 'Фанатский проект по Danganronpa в... Pony Town',
 	content: <>
 		Проект по Pony Town, очень оригинально... Из примечательного планировалась система фракций (Осколки Отчания, Фонд будущего и так далее), система квестов, экономика и поддержка нескольких языков.<br />
 

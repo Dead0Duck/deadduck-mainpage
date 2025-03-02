@@ -4,7 +4,7 @@ import { FaYoutube } from 'react-icons/fa';
 const ProjectGmodDBR = {
 	id: 'gmod-dbr',
 	label: 'Danganronpa: Despair Beyond Repair',
-	description: 'Фанатский проект по игре Danganronpa в Garry\'s mod',
+	description: 'Фанатский проект по Danganronpa в Garry\'s mod',
 	content: <>
 		Danganronpa: Despair Beyond Repair - это мультиплеерный игровой RP режим по игре Danganronpa в Garry's Mod.<br />
 

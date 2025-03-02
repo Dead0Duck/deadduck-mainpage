@@ -1,7 +1,7 @@
 const ProjectDanganbox = {
 	id: 'dr-db',
 	label: 'DanganBox',
-	description: 'Фанатский проект по игре Danganronpa в формате Jackbox',
+	description: 'Фанатская игра по Danganronpa в формате Jackbox',
 	content: <>
 		Невероятная идея скрестить суды из Danganronpa и формат игры через сайт, пока кто-то хостит игру в приложении, из Jackbox.<br />
 		Этот проект разрабатывался пару дней, даже умудрился получить свой логотип... Но теперь этот логотип в нормальном качестве для меня Lost Media)<br />
