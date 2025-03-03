@@ -1,7 +1,8 @@
 import { Container } from '@mantine/core';
 
 const demoProps = {
-    bg: 'var(--mantine-color-cyan-light)',
+    // bg: 'var(--mantine-color-cyan-light)',
+	class: 'duck-Card',
     mih: 50,
     mt: 'md',
 	pt: 'xs',

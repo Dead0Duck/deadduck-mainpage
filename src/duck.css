@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Duck';
+	src: url(./fonts/firasans.ttf) format('truetype');
+  }
+
+.duck-Card {
+	border-radius: var(--mantine-radius-default);
+    padding: var(--mantine-spacing-lg);
+    border: calc(0.0625rem* var(--mantine-scale)) solid var(--mantine-color-default-border)
+}

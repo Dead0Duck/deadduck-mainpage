@@ -7,6 +7,7 @@ const SocialButton = ({ href, Icon, text, mt }) => <Button
 	rel="noopener noreferrer"
 	mt={mt}
 	leftSection={<Icon size={14} />}
+	variant="outline"
 >
 	{text}
 </Button>;

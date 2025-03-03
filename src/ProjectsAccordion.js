@@ -61,7 +61,7 @@ function ProjectsAccordion() {
 
 		<Box mx="auto" mt="xs">
 			<Group justify="center" mb={5}>
-				<Button onClick={toggle}>Увидеть больше</Button>
+				<Button variant="outline" onClick={toggle}>Увидеть больше</Button>
 			</Group>
 
 			<Collapse in={opened}>

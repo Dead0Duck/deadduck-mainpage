@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './duck.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { cssVariableResolver } from "./cssVariableResolver";
 import { theme } from './theme';
 
 import { MantineProvider } from '@mantine/core';
@@ -11,7 +14,11 @@ import '@mantine/core/styles.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-	<MantineProvider theme={theme} defaultColorScheme="dark">
+	<MantineProvider
+		theme={theme}
+		cssVariablesResolver={cssVariableResolver}
+		defaultColorScheme="dark"
+	>
 		<App />
 	</MantineProvider>
   </React.StrictMode>
