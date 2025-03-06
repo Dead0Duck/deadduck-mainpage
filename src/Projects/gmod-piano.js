@@ -2,6 +2,7 @@ import Img from './imgs/gmod-piano.avif';
 import { Flex } from '@mantine/core';
 import SocialButton from '../SocialButton';
 import { FaSteamSymbol, FaGithub } from 'react-icons/fa';
+import YtEmbed from '../YtEmbed';
 
 const ProjectGmodPiano = {
 	id: 'gmod-piano',
@@ -23,7 +24,7 @@ const ProjectGmodPiano = {
 			<SocialButton href="https://github.com/Dead0Duck/Autoplayable_Piano" Icon={FaGithub} text="Открыть в Github" /><br />
 		</Flex>
 		<br />
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/NKQVByNpnCA?si=hGrxkdqhUTFdt2I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<YtEmbed src='https://www.youtube.com/embed/NKQVByNpnCA' />
 	</>,
 }
 

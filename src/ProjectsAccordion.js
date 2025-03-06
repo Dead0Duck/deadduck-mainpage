@@ -26,7 +26,7 @@ const projectsList = [
 function AccordionLabel({ label, id, description, img }) {
   return (
     <Group wrap="nowrap">
-      <Avatar src={img} radius="xl" size="lg" />
+      <Avatar src={img} radius="xl" size="lg" imageProps={{"loading": "lazy"}} />
       <div>
         <Text>{label}</Text>
         <Text size="sm" c="dimmed" fw={400}>
