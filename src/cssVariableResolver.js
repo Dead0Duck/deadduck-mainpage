@@ -1,4 +1,4 @@
-import { alpha, CSSVariablesResolver } from '@mantine/core';
+import { alpha } from '@mantine/core';
 
 export const cssVariableResolver = () => ({
   variables: {

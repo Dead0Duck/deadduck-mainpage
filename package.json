@@ -92,7 +92,8 @@
     "imagemin-avif-webpack-plugin": "^0.0.4",
     "postcss": "^8.5.3",
     "postcss-preset-mantine": "^1.17.0",
-    "postcss-simple-vars": "^7.0.1"
+    "postcss-simple-vars": "^7.0.1",
+    "webp-loader": "^0.6.0"
   },
   "jest": {
     "roots": [

@@ -1,4 +1,4 @@
-import Img from './imgs/gmod-dbr.png';
+import Img from './imgs/gmod-dbr.avif';
 import SocialButton from '../SocialButton';
 import { FaYoutube } from 'react-icons/fa';
 

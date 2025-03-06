@@ -1,4 +1,4 @@
-import Img from './imgs/gmod-piano.png';
+import Img from './imgs/gmod-piano.avif';
 import { Flex } from '@mantine/core';
 import SocialButton from '../SocialButton';
 import { FaSteamSymbol, FaGithub } from 'react-icons/fa';

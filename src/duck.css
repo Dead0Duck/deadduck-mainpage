@@ -1,7 +1,18 @@
 @font-face {
 	font-family: 'Duck';
-	src: url(./fonts/firasans.ttf) format('truetype');
-  }
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./fonts/firasans.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Duck';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(./fonts/firasans_bold.woff2) format('woff2');
+}
 
 .duck-Card {
 	border-radius: var(--mantine-radius-default);

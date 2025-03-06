@@ -1,4 +1,4 @@
-import Img from './imgs/dr-db.png';
+import Img from './imgs/dr-db.avif';
 
 const ProjectDanganbox = {
 	id: 'dr-db',

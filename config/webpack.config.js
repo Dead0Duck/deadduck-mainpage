@@ -291,6 +291,8 @@ module.exports = function (webpackEnv) {
         }),
         // This is only used in production mode
         new CssMinimizerPlugin(),
+		// This is only used in production mode
+		new ImageminAvifWebpackPlugin(),
       ],
     },
     resolve: {
@@ -748,7 +750,6 @@ module.exports = function (webpackEnv) {
             },
           },
         }),
-	  new ImageminAvifWebpackPlugin(),
     ].filter(Boolean),
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter

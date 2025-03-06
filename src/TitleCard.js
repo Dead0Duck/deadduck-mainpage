@@ -1,7 +1,7 @@
 import Card from './Card.js';
 import { Grid, Title, Image } from '@mantine/core';
 
-import DeadDuckImg from './imgs/DeadDuck.png'
+import DeadDuckImg from './imgs/DeadDuck.avif'
 
 const TitleCard = () => (
 	<Card settings={{
