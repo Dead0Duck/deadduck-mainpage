@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce7f521b.css",
-    "main.js": "/static/js/main.f34c8420.js",
-    "static/js/453.df5fb28f.chunk.js": "/static/js/453.df5fb28f.chunk.js",
-    "static/media/firasans.ttf": "/static/media/firasans.f4eb295ecc2fb842d61c.ttf",
-    "static/media/gmod-dbr.png": "/static/media/gmod-dbr.8e6e7ef29e8e239ffba6.png",
-    "static/media/gmod-piano.png": "/static/media/gmod-piano.465ec9b95e6bbdcf6ea2.png",
-    "static/media/DeadDuck.png": "/static/media/DeadDuck.24aa43ab04f238054016.png",
-    "static/media/dr-db.png": "/static/media/dr-db.13b89f155fa3b74a15ea.png",
+    "main.css": "/static/css/main.703045f2.css",
+    "main.js": "/static/js/main.6e4a7faf.js",
+    "static/media/firasans_bold.woff2": "/static/media/firasans_bold.cf14acb439055ddabf3b.woff2",
+    "static/media/firasans.woff2": "/static/media/firasans.34239e5e6cfef84d4157.woff2",
+    "static/media/gmod-dbr.avif": "/static/media/gmod-dbr.9108da79c3bbafe69ae6.avif",
+    "static/media/gmod-piano.avif": "/static/media/gmod-piano.8d75b5b52e3b6bff2db6.avif",
+    "static/media/DeadDuck.avif": "/static/media/DeadDuck.8e5a2b9c2b67d70094b7.avif",
+    "static/media/dr-db.avif": "/static/media/dr-db.10e265830312b6918d5d.avif",
     "index.html": "/index.html",
-    "main.ce7f521b.css.map": "/static/css/main.ce7f521b.css.map",
-    "main.f34c8420.js.map": "/static/js/main.f34c8420.js.map",
-    "453.df5fb28f.chunk.js.map": "/static/js/453.df5fb28f.chunk.js.map"
+    "main.703045f2.css.map": "/static/css/main.703045f2.css.map",
+    "main.6e4a7faf.js.map": "/static/js/main.6e4a7faf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce7f521b.css",
-    "static/js/main.f34c8420.js"
+    "static/css/main.703045f2.css",
+    "static/js/main.6e4a7faf.js"
   ]
 }
